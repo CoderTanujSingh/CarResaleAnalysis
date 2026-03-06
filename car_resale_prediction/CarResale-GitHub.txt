@@ -1,0 +1,144 @@
+# **🚗 Car Resale Price Prediction using Machine Learning Pipeline**
+
+This project builds an end-to-end machine learning pipeline to predict the resale price of used cars based on multiple vehicle attributes such as engine capacity, mileage, fuel type, ownership history, and more.
+
+The goal is to transform raw marketplace car listing data into structured features and train a model capable of accurately estimating resale prices.
+
+# 📊 Project Workflow
+
+The project follows a typical industry ML workflow:
+
+### 1️⃣ Data Cleaning & Preprocessing
+
+Converted text features into numeric values
+
+Extracted numerical values from columns like:
+
+kms_driven
+
+engine_capacity
+
+max_power
+
+mileage
+
+Converted price values from Lakh → INR
+
+Handled missing values and inconsistent categories
+
+### 2️⃣ Feature Engineering
+
+Extracted car brand from vehicle name
+
+Converted raw text columns into structured numerical features
+
+Removed data leakage columns
+
+## 3️⃣ Data Transformation Pipeline
+Using Scikit-learn Pipeline + ColumnTransformer
+
+Numerical preprocessing
+
+Median imputation
+
+Categorical preprocessing
+
+Most frequent imputation
+
+OneHotEncoding
+
+### 4️⃣ Model Training
+
+Model used:
+
+RandomForestRegressor
+
+Why Random Forest?
+
+Handles nonlinear relationships
+
+Works well with mixed feature types
+
+Robust to noise
+
+### 5️⃣ Model Evaluation
+
+Metrics used:
+
+MAE (Mean Absolute Error)
+
+MSE (Mean Squared Error)
+
+RMSE (Root Mean Squared Error)
+
+R² Score
+
+# Example result:
+
+MAE  : ~114K
+RMSE : ~349K
+R²   : 0.87
+
+This means the model explains 87% of the variance in car prices.
+
+
+# 🧠 Machine Learning Pipeline
+
+The model is built using an end-to-end Scikit-learn pipeline that includes:
+
+ColumnTransformer
+        ↓
+Numerical Imputation
+Categorical Encoding
+        ↓
+RandomForest Regressor
+
+The pipeline ensures:
+
+clean preprocessing
+
+no data leakage
+
+easy deployment
+
+### 📈 Visualization
+
+Model performance was validated using an Actual vs Predicted price scatter plot.
+
+This helps evaluate how closely predictions align with real car prices.
+
+🛠 Tech Stack
+
+Python
+
+Pandas
+
+NumPy
+
+Scikit-learn
+
+Matplotlib
+
+Joblib
+
+### 💾 Model Deployment Ready
+
+The entire pipeline (preprocessing + model) is saved using:
+
+**joblib**
+
+This allows loading the trained model and predicting new car prices instantly.
+
+🚀 Future Improvements
+
+Possible enhancements:
+
+Hyperparameter tuning (GridSearchCV)
+
+Feature importance analysis
+
+Model comparison (XGBoost / LightGBM)
+
+Web API deployment (FastAPI / Flask)
+
+Streamlit price prediction app
