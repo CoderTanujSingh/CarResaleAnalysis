@@ -37,38 +37,8 @@ This project focuses on:
 
 # 🧠 Machine Learning Pipeline
 
-Raw Dataset
+<img width="1536" height="1024" alt="Car Resale Price Prediction layout" src="https://github.com/user-attachments/assets/9153f94a-a05f-4a04-a37c-4742c216ccab" />
 
-     │
-     
-     ▼
-Data Cleaning
-
-     │
-     
-     ▼
-     
-Feature Engineering
-
-     │
-     
-     ▼
-     
-ColumnTransformer
-
- ├── Numerical Imputation
- 
- └── OneHot Encoding
-     │
-     
-     ▼
-     
-RandomForest Regressor
-     │
-     
-     ▼
-     
-Price Prediction
 
 
 This pipeline ensures reproducibility and no data leakage.
@@ -191,5 +161,3 @@ Data Analyst | Machine Learning Enthusiast | Python Developer
 ⭐ If you like this project
 
 Give the repo a ⭐ and connect with me on LinkedIn.
-
-<img width="1536" height="1024" alt="Car Resale Price Prediction layout" src="https://github.com/user-attachments/assets/9153f94a-a05f-4a04-a37c-4742c216ccab" />
