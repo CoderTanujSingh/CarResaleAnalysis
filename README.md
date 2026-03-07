@@ -106,6 +106,8 @@ This saves:
 
 ✔ trained model
 
+So predictions can be made directly on new data.
+
 ## Power BI Dashboard
 
 A Power BI dashboard was created to analyse the used car market using the cleaned dataset.
@@ -124,9 +126,6 @@ The dashboard provides insights into:
 
 <img width="712" height="400" alt="image" src="https://github.com/user-attachments/assets/28a49cba-44ee-415a-8144-6a1a3995627e" />
 
-
-
-So predictions can be made directly on new data.
 
 # 🔮 Future Improvements
 
