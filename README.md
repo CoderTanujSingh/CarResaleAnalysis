@@ -36,23 +36,38 @@ This project focuses on:
 
 
 # 🧠 Machine Learning Pipeline
+
 Raw Dataset
+
      │
+     
      ▼
 Data Cleaning
+
      │
+     
      ▼
+     
 Feature Engineering
+
      │
+     
      ▼
+     
 ColumnTransformer
+
  ├── Numerical Imputation
+ 
  └── OneHot Encoding
      │
+     
      ▼
+     
 RandomForest Regressor
      │
+     
      ▼
+     
 Price Prediction
 
 
