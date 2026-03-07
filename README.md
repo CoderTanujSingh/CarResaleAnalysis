@@ -126,7 +126,7 @@ This saves:
 
 So predictions can be made directly on new data.
 
-#🔮 Future Improvements
+# 🔮 Future Improvements
 
 Possible upgrades:
 
@@ -141,7 +141,7 @@ Streamlit prediction web app
 API deployment (FastAPI)
 
 
-#📌 Key Learning
+# 📌 Key Learning
 
 This project highlights the importance of:
 
@@ -161,3 +161,5 @@ Data Analyst | Machine Learning Enthusiast | Python Developer
 ⭐ If you like this project
 
 Give the repo a ⭐ and connect with me on LinkedIn.
+
+https://www.linkedin.com/in/tanuj-singh-coder/
