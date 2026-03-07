@@ -1,144 +1,180 @@
-# **🚗 Car Resale Price Prediction using Machine Learning Pipeline**
+# **🚗 Car Resale Price Prediction — Machine Learning Pipeline**
 
-This project builds an end-to-end machine learning pipeline to predict the resale price of used cars based on multiple vehicle attributes such as engine capacity, mileage, fuel type, ownership history, and more.
+An end-to-end Machine Learning project that predicts the resale price of used cars using real-world vehicle listing data.
 
-The goal is to transform raw marketplace car listing data into structured features and train a model capable of accurately estimating resale prices.
+This project demonstrates how raw, messy marketplace data can be transformed into a production-ready ML pipeline using Python and Scikit-learn.
 
-# 📊 Project Workflow
+📊 Dataset Size: 17,000+ car listings
 
-The project follows a typical industry ML workflow:
+🎯 Problem Type: Regression
 
-### 1️⃣ Data Cleaning & Preprocessing
+📉 Model Accuracy: R² = 0.87
 
-Converted text features into numeric values
+# 📊 Project Overview
 
-Extracted numerical values from columns like:
+Used car marketplaces contain messy and inconsistent data, such as:
 
-kms_driven
+₹ 5.45 Lakh
+40,000 Kms
+1197 cc
+83.1 bhp
+21.4 kmpl
 
-engine_capacity
+Before training a machine learning model, these values must be cleaned, structured, and transformed.
 
-max_power
+This project focuses on:
 
-mileage
+✔ Data cleaning
 
-Converted price values from Lakh → INR
+✔ Feature engineering
 
-Handled missing values and inconsistent categories
+✔ ML pipeline creation
 
-### 2️⃣ Feature Engineering
+✔ Model training & evaluation
 
-Extracted car brand from vehicle name
+✔ Model persistence using joblib
 
-Converted raw text columns into structured numerical features
 
-Removed data leakage columns
+# 🧠 Machine Learning Pipeline
+Raw Dataset
+     │
+     ▼
+Data Cleaning
+     │
+     ▼
+Feature Engineering
+     │
+     ▼
+ColumnTransformer
+ ├── Numerical Imputation
+ └── OneHot Encoding
+     │
+     ▼
+RandomForest Regressor
+     │
+     ▼
+Price Prediction
 
-## 3️⃣ Data Transformation Pipeline
-Using Scikit-learn Pipeline + ColumnTransformer
 
-Numerical preprocessing
+This pipeline ensures reproducibility and no data leakage.
 
-Median imputation
+# ⚙️ Features Used
 
-Categorical preprocessing
+Feature	                                Description
 
-Most frequent imputation
+registered_year	                        Year of car registration
 
-OneHotEncoding
+brand	                                Car manufacturer
 
-### 4️⃣ Model Training
+num_kms	                                Distance driven
 
-Model used:
+num_engine	                        Engine capacity
 
+max_power	                        Engine power
+
+mileage	                                Fuel efficiency
+
+seats	                                Seating capacity
+
+fuel_type	                        Petrol / Diesel / etc
+
+transmission_type	                Manual / Automatic
+
+owner_type	                        Ownership history
+
+insurance	                        Insurance type
+
+City	                                Car location
+
+
+# 📈 Model Used
 RandomForestRegressor
 
 Why Random Forest?
 
-Handles nonlinear relationships
+✔ Handles nonlinear relationships
+✔ Works well with structured tabular data
+✔ Robust against outliers
 
-Works well with mixed feature types
+📊 Model Performance
+Metric	Score
+MAE	~114K
+RMSE	~349K
+R² Score	0.87
 
-Robust to noise
+📌 The model explains 87% of the variance in resale prices.
 
-### 5️⃣ Model Evaluation
+📉 Prediction Visualisation
 
-Metrics used:
+Actual vs Predicted Car Prices
 
-MAE (Mean Absolute Error)
+Scatter Plot:
+Actual Price vs Predicted Price
 
-MSE (Mean Squared Error)
+This helps evaluate how close model predictions are to real car prices.
 
-RMSE (Root Mean Squared Error)
+# 🛠 Tech Stack
+Tool	Purpose
+Python	Programming
+Pandas	Data processing
+NumPy	Numerical operations
+Scikit-learn	ML pipeline & modelling
+Matplotlib	Visualisation
+Joblib	Model saving
 
-R² Score
+# 💾 Model Saving
 
-# Example result:
+The entire ML pipeline is saved using:
 
-MAE  : ~114K
-RMSE : ~349K
-R²   : 0.87
+joblib
 
-This means the model explains 87% of the variance in car prices.
+joblib.dump(model_pipeline,"car_price_pipeline.pkl")
+
+This saves:
+
+✔ preprocessing
+
+✔ encoding
+
+✔ trained model
 
 
-# 🧠 Machine Learning Pipeline
+So predictions can be made directly on new data.
 
-The model is built using an end-to-end Scikit-learn pipeline that includes:
+#🔮 Future Improvements
 
-ColumnTransformer
-        ↓
-Numerical Imputation
-Categorical Encoding
-        ↓
-RandomForest Regressor
-
-The pipeline ensures:
-
-clean preprocessing
-
-no data leakage
-
-easy deployment
-
-### 📈 Visualization
-
-Model performance was validated using an Actual vs Predicted price scatter plot.
-
-This helps evaluate how closely predictions align with real car prices.
-
-🛠 Tech Stack
-
-Python
-
-Pandas
-
-NumPy
-
-Scikit-learn
-
-Matplotlib
-
-Joblib
-
-### 💾 Model Deployment Ready
-
-The entire pipeline (preprocessing + model) is saved using:
-
-**joblib**
-
-This allows loading the trained model and predicting new car prices instantly.
-
-🚀 Future Improvements
-
-Possible enhancements:
+Possible upgrades:
 
 Hyperparameter tuning (GridSearchCV)
 
 Feature importance analysis
 
-Model comparison (XGBoost / LightGBM)
+XGBoost / LightGBM models
 
-Web API deployment (FastAPI / Flask)
+Streamlit prediction web app
 
-Streamlit price prediction app
+API deployment (FastAPI)
+
+
+#📌 Key Learning
+
+This project highlights the importance of:
+
+✔ Data preprocessing
+✔ Feature engineering
+✔ ML pipelines
+✔ Model evaluation
+
+Real-world ML success depends more on clean data pipelines than complex algorithms.
+
+# 👨‍💻 Author
+
+**Tanuj Singh**
+
+Data Analyst | Machine Learning Enthusiast | Python Developer
+
+⭐ If you like this project
+
+Give the repo a ⭐ and connect with me on LinkedIn.
+
+<img width="1536" height="1024" alt="Car Resale Price Prediction layout" src="https://github.com/user-attachments/assets/9153f94a-a05f-4a04-a37c-4742c216ccab" />
