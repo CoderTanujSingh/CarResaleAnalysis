@@ -106,6 +106,25 @@ This saves:
 
 ✔ trained model
 
+## Power BI Dashboard
+
+A Power BI dashboard was created to analyse the used car market using the cleaned dataset.
+
+The dashboard provides insights into:
+
+• Brand-wise resale price trends  
+
+• Fuel type price comparison  
+
+• Mileage vs price relationships  
+
+• City-wise market differences  
+
+• Interactive filtering for deeper exploration
+
+<img width="712" height="400" alt="image" src="https://github.com/user-attachments/assets/28a49cba-44ee-415a-8144-6a1a3995627e" />
+
+
 
 So predictions can be made directly on new data.
 
@@ -150,8 +169,3 @@ Data Analyst | Machine Learning Enthusiast | Python Developer
 Give the repo a ⭐ and connect with me on LinkedIn.
 
 https://www.linkedin.com/in/tanuj-singh-coder/
-
-<img width="712" height="400" alt="image" src="https://github.com/user-attachments/assets/28a49cba-44ee-415a-8144-6a1a3995627e" />
-
-
-
