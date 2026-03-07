@@ -41,7 +41,7 @@ This project focuses on:
 
 # 🧠 Machine Learning Pipeline
 
-<img width="1536" height="1024" alt="Car Resale Price Prediction layout" src="https://github.com/user-attachments/assets/9153f94a-a05f-4a04-a37c-4742c216ccab" />
+<img width="768" height="512" alt="Car Resale Price Prediction layout" src="https://github.com/user-attachments/assets/9153f94a-a05f-4a04-a37c-4742c216ccab" />
 
 
 
@@ -49,7 +49,7 @@ This pipeline ensures reproducibility and no data leakage.
 
 # ⚙️ Features Used
 
-<img width="1536" height="1024" alt="Car Resale features Infrographics" src="https://github.com/user-attachments/assets/cf32abb0-16ed-419a-ac27-1e17515a0985" />
+<img width="768" height="512" alt="Car Resale features Infrographics" src="https://github.com/user-attachments/assets/cf32abb0-16ed-419a-ac27-1e17515a0985" />
 
 
 
@@ -87,7 +87,7 @@ This helps evaluate how close model predictions are to real car prices.
 
 # 🛠 Tech Stack
 
-<img width="1536" height="1024" alt="tech used" src="https://github.com/user-attachments/assets/148e8e76-12fc-4245-b973-b439af428fe1" />
+<img width="768" height="512" alt="tech used" src="https://github.com/user-attachments/assets/148e8e76-12fc-4245-b973-b439af428fe1" />
 
 
 # 💾 Model Saving
@@ -151,6 +151,7 @@ Give the repo a ⭐ and connect with me on LinkedIn.
 
 https://www.linkedin.com/in/tanuj-singh-coder/
 
-<img width="1428" height="797" alt="image" src="https://github.com/user-attachments/assets/9b65ed45-32b3-4ea5-be0b-6a671d7ed49f" />
+<img width="712" height="400" alt="image" src="https://github.com/user-attachments/assets/28a49cba-44ee-415a-8144-6a1a3995627e" />
+
 
 
