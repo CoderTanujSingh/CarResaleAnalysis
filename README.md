@@ -59,7 +59,9 @@ RandomForestRegressor
 Why Random Forest?
 
 ✔ Handles nonlinear relationships
+
 ✔ Works well with structured tabular data
+
 ✔ Robust against outliers
 
 📊 Model Performance
@@ -74,7 +76,7 @@ R² Score	0.87
 
 📌 The model explains 87% of the variance in resale prices.
 
-📉 Prediction Visualisation
+# 📉 Prediction Visualisation
 
 Actual vs Predicted Car Prices
 
@@ -84,19 +86,9 @@ Actual Price vs Predicted Price
 This helps evaluate how close model predictions are to real car prices.
 
 # 🛠 Tech Stack
-Tool	Purpose
 
-Python	Programming
+<img width="1536" height="1024" alt="tech used" src="https://github.com/user-attachments/assets/148e8e76-12fc-4245-b973-b439af428fe1" />
 
-Pandas	Data processing
-
-NumPy	Numerical operations
-
-Scikit-learn	ML pipeline & modelling
-
-Matplotlib	Visualisation
-
-Joblib	Model saving
 
 # 💾 Model Saving
 
@@ -137,9 +129,13 @@ API deployment (FastAPI)
 This project highlights the importance of:
 
 ✔ Data preprocessing
+
 ✔ Feature engineering
+
 ✔ ML pipelines
+
 ✔ Model evaluation
+
 
 Real-world ML success depends more on clean data pipelines than complex algorithms.
 
