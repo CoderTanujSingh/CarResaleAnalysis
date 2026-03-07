@@ -15,9 +15,13 @@ This project demonstrates how raw, messy marketplace data can be transformed int
 Used car marketplaces contain messy and inconsistent data, such as:
 
 ₹ 5.45 Lakh
+
 40,000 Kms
+
 1197 cc
+
 83.1 bhp
+
 21.4 kmpl
 
 Before training a machine learning model, these values must be cleaned, structured, and transformed.
@@ -45,31 +49,8 @@ This pipeline ensures reproducibility and no data leakage.
 
 # ⚙️ Features Used
 
-Feature	                                Description
+<img width="1536" height="1024" alt="Car Resale features Infrographics" src="https://github.com/user-attachments/assets/cf32abb0-16ed-419a-ac27-1e17515a0985" />
 
-registered_year	                        Year of car registration
-
-brand	                                Car manufacturer
-
-num_kms	                                Distance driven
-
-num_engine	                        Engine capacity
-
-max_power	                        Engine power
-
-mileage	                                Fuel efficiency
-
-seats	                                Seating capacity
-
-fuel_type	                        Petrol / Diesel / etc
-
-transmission_type	                Manual / Automatic
-
-owner_type	                        Ownership history
-
-insurance	                        Insurance type
-
-City	                                Car location
 
 
 # 📈 Model Used
@@ -82,9 +63,13 @@ Why Random Forest?
 ✔ Robust against outliers
 
 📊 Model Performance
+
 Metric	Score
+
 MAE	~114K
+
 RMSE	~349K
+
 R² Score	0.87
 
 📌 The model explains 87% of the variance in resale prices.
@@ -100,11 +85,17 @@ This helps evaluate how close model predictions are to real car prices.
 
 # 🛠 Tech Stack
 Tool	Purpose
+
 Python	Programming
+
 Pandas	Data processing
+
 NumPy	Numerical operations
+
 Scikit-learn	ML pipeline & modelling
+
 Matplotlib	Visualisation
+
 Joblib	Model saving
 
 # 💾 Model Saving
