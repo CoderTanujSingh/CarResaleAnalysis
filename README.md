@@ -150,3 +150,7 @@ Data Analyst | Machine Learning Enthusiast | Python Developer
 Give the repo a ⭐ and connect with me on LinkedIn.
 
 https://www.linkedin.com/in/tanuj-singh-coder/
+
+<img width="1428" height="797" alt="image" src="https://github.com/user-attachments/assets/9b65ed45-32b3-4ea5-be0b-6a671d7ed49f" />
+
+
